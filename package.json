@@ -1,0 +1,13 @@
+{
+  "name": "zoooom9102-max-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run build --prefix apps/portfolio && npm run build --prefix apps/evaluation-labeling && node scripts/assemble-pages.mjs",
+    "build:portfolio": "npm run build --prefix apps/portfolio",
+    "build:evaluation": "npm run build --prefix apps/evaluation-labeling",
+    "assemble": "node scripts/assemble-pages.mjs",
+    "verify": "node scripts/verify-build.mjs"
+  }
+}

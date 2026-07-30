@@ -1,0 +1,42 @@
+# Dependencies and build output
+node_modules/
+dist/
+site/
+.vite/
+coverage/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Local tools and caches
+.cache/
+.codex-tmp/
+.wrangler/
+.openai/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Internal project material not needed by the public deployment repository
+/backups/
+/outputs/
+/references/
+/research/
+/work/
