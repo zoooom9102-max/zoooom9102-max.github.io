@@ -133,4 +133,4 @@ CloudBase 免费体验环境当前到期时间为 `2027-01-30 23:59:59`。到期
 
 ## 媒体说明
 
-当前部署使用约 6.8 MiB 的 `section-scroll-video.mp4` 和约 44.5 MiB 的 `game-cg-montage.mp4`。后续需要更新视频时，直接替换 `apps/portfolio/public/media/` 中的同名文件即可。
+当前部署使用约 10.5 MiB 的 `section-scroll-video.mp4` 和约 44.5 MiB 的 `game-cg-montage.mp4`。滚动视频需要使用高密度关键帧、无 B 帧的编码，避免滚动映射播放时频繁长距离解码；后续替换时不能只按普通播放视频的方式压缩。
