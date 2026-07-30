@@ -11,7 +11,7 @@ const requiredFiles = [
   path.join(site, "404.html"),
   path.join(site, ".nojekyll"),
   path.join(site, "media", "eval-method-cover.png"),
-  path.join(site, "media", "game-cg-montage.webm"),
+  path.join(site, "media", "game-cg-montage.mp4"),
   path.join(subsite, "index.html"),
   path.join(subsite, "404.html"),
 ];

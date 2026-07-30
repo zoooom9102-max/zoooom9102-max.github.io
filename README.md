@@ -94,5 +94,4 @@ git push origin main
 
 ## 媒体说明
 
-当前部署暂时保留约 73 MiB 的 `game-cg-montage.webm`。后续获得小于 50 MiB 的版本时，替换 `apps/portfolio/public/media/game-cg-montage.webm`，保持文件名不变即可。
-
+当前部署使用约 6.8 MiB 的 `section-scroll-video.mp4` 和约 44.5 MiB 的 `game-cg-montage.mp4`。后续需要更新视频时，直接替换 `apps/portfolio/public/media/` 中的同名文件即可。

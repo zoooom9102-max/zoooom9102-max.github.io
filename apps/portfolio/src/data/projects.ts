@@ -81,7 +81,7 @@ export const showcaseItems: ShowcaseItem[] = [
     description:
       "将大量游戏 CG 等素材重新剪辑，配合音乐、音效和视觉效果，制作成具有统一主题和情绪的视频。",
     action: "全屏播放",
-    video: "/media/game-cg-montage.webm",
+    video: "/media/game-cg-montage.mp4",
   },
   {
     id: "content-output",
