@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.cloudbase.net/cli/cloudbaserc.schema.json",
+  "version": "2.0",
+  "envId": "wenzo-lee-d2gosqi9p84442044",
+  "region": "ap-shanghai",
+  "app": {
+    "root": ".",
+    "serviceName": "portfolio",
+    "framework": "vite",
+    "installCommand": "npm run install:cloudbase",
+    "buildCommand": "npm run build:cloudbase",
+    "outputDir": "site",
+    "deployPath": "/",
+    "ignore": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "site/**",
+      ".git/**",
+      ".github/**",
+      ".cache/**",
+      ".codex-tmp/**",
+      "**/*.log",
+      "**/*.tsbuildinfo"
+    ]
+  }
+}

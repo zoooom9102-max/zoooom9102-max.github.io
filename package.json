@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "install:cloudbase": "npm ci --prefix apps/portfolio && npm ci --prefix apps/evaluation-labeling",
     "build": "npm run build --prefix apps/portfolio && npm run build --prefix apps/evaluation-labeling && node scripts/assemble-pages.mjs",
+    "build:cloudbase": "npm run build && npm run verify",
     "build:portfolio": "npm run build --prefix apps/portfolio",
     "build:evaluation": "npm run build --prefix apps/evaluation-labeling",
     "assemble": "node scripts/assemble-pages.mjs",
