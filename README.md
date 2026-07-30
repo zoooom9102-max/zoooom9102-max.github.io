@@ -75,6 +75,8 @@ CloudBase 环境 ID 为 `wenzo-lee-d2gosqi9p84442044`，应用名为 `portfolio`
 - 构建命令：`npm run build:cloudbase`
 - 构建产物目录：`site`
 - Node.js：22（Git 仓库持续部署）
+- Git 源：`zoooom9102-max/zoooom9102-max.github.io` 的 `main` 分支
+- 首次成功的 Git 构建版本：`portfolio-005`（2026-07-30）
 
 CloudBase 控制台绑定 GitHub 仓库的 `main` 分支后，推送代码会自动触发构建和发布。手动部署前需安装并登录官方 CLI：
 
