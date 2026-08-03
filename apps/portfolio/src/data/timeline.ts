@@ -6,7 +6,7 @@ export const timeline: TimelineEntry[] = [
     title: "MiniMax",
     subtitle: "AI训练与测评实习生",
     description:
-      "参与 Hailuo 2.3 多模态 Caption 训练、T2V 竞品评测，以及视频标注与人效管理工具搭建。",
+      "参与 Hailuo 模型视频 Caption 数据建设、T2V 竞品评测，并搭建自动预标注工作流及评测工具。",
     detail: "多模态 Caption / T2V 评测 / 标注平台与自动化",
     tag: "INTERNSHIP",
     status: "published",
